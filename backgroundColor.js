@@ -1,6 +1,14 @@
-let colors = ["yellow","green","blue","black"];
-
+let colors = ['yellow','green','deepskyblue','red','gold','acqua','pink','black','blue'];
 const color = document.querySelector('.color');
 const btn = document.querySelector('.btn');
-let randomNumber = 2
-btn.addEventListener('click', () => console.log(document.body) )
+
+btn.addEventListener('click', () => {
+ const randomNumber = getrandomNumber();
+ console.log(randomNumber)
+ document.body.style.backgroundColor = colors[randomNumber];
+ color.innerHTML = colors[randomNumber]
+})
+
+function getrandomNumber() {
+    return Math.trunc( Math.random() * colors.length)
+}
