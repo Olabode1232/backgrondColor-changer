@@ -1,3 +1,12 @@
 body{
-    background-color: blueviolet;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%);
+    
+}
+button.btn-index{
+    background-color: transparent;
+    position: relative;
+    left: 46%;
+    top: 190px;
+    font-size: 25px;
+    /* cursor:zoom-out; */
 }
