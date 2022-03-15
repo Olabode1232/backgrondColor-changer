@@ -5,6 +5,9 @@ nav{
     justify-content: space-around;
     box-shadow: 2px 3px 4px black, 2px -3px 3px grey;
 }
+nav:hover{
+    background-color:white;
+}
 nav h1.flip{
     color: rgb(46 208 208);
 }
@@ -16,3 +19,35 @@ nav ul li{
     padding-left: 18px;
     color: rgb(46 208 208);
 }
+div.container{
+    position: relative;
+    top: 170px;
+    background-color: rgb(170 33 33);
+    box-shadow: 2px 2px 5px black, 2px -2px 5px black;
+    width: 60%;
+    height: 115px;
+    margin-left: 20%;
+    border-radius: 27px;
+    margin-left: 20%;
+}
+
+div h1.bground{
+    text-align: center;
+    text-shadow: 1px 6px 5px black;
+    color: white;
+    padding-top: 14px;
+    font-size: 40px
+}
+div h1 span.color{
+    text-align: center;
+    color: rgb(28, 61, 61);
+}
+button.btn{
+    background-color: transparent;
+    position: relative;
+    left: 46%;
+    top: 190px;
+    font-size: 25px;
+    /* cursor:zoom-out; */
+}
+
