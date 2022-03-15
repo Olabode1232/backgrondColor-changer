@@ -1,0 +1,18 @@
+
+nav{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 3px 4px black, 2px -3px 3px grey;
+}
+nav h1.flip{
+    color: rgb(46 208 208);
+}
+
+nav ul li{
+    display: inline;
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 18px;
+    color: rgb(46 208 208);
+}
